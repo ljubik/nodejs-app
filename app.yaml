@@ -1,7 +1,7 @@
 runtime: nodejs8
 
 handlers:
-- url: /data/
+- url: auto
   script: app.js
 - url: /
   script: index.html

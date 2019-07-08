@@ -1,9 +1,7 @@
 runtime: nodejs8
-api_version: 1
 
 handlers:
 - url: /data/
   script: app.js
-
 - url: /
   script: index.html

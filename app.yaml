@@ -3,7 +3,7 @@ api_version: 0.1
 
 
 handlers:
-- url: /data
+- url: /data/
   script: app.js
 
 handlers:

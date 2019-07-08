@@ -33,7 +33,7 @@ app.post('/data', function(req, res){
     if(err) throw err;
     console.log(result);
     res.send({
-        status: 'Data sukses diinput!',
+        status: 'Data suksess diinput!',
         no: null,
 		nama: req.body.nama,
 		usia: req.body.usia
@@ -42,5 +42,5 @@ app.post('/data', function(req, res){
 });
 
 app.listen(3210, ()=>{
-    console.log('Server aktive port 3210 back-end')
+    console.log('Server aktive port 3210 or 80 back-end')
 });

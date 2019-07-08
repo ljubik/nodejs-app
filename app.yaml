@@ -1,9 +1,6 @@
 runtime: nodejs8
 
 handlers:
-- url: /data
-  script: app.js
 - url: /
-  script: index.html
-- url: /index\.html
-  script: index.html
+  script: app.js
+

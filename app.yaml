@@ -1,11 +1,9 @@
 runtime: nodejs
 api_version: 0.1
 
-
 handlers:
 - url: /data/
   script: app.js
 
-handlers:
 - url: /
   script: index.html
